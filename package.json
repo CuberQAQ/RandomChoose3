@@ -1,0 +1,22 @@
+{
+  "name": "randomchoose3",
+  "version": "1.0.0",
+  "description": "Framework of Taiya Guantong Class Random choosing System Gen3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CuberQAQ/randomchoose3.git"
+  },
+  "keywords": [
+    "Taiya"
+  ],
+  "author": "CuberQAQ",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/CuberQAQ/randomchoose3/issues"
+  },
+  "homepage": "https://github.com/CuberQAQ/randomchoose3#readme"
+}
