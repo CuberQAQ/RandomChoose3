@@ -1,9 +1,10 @@
 import { RCCore } from "./RCCore";
 
-export abstract class RCStatistician {
+export abstract class RCDataManager {
     protected core?: RCCore
     init(core: RCCore) {
         this.core = core
     }
-    abstract statistic(): void;
+    abstract load(): DataPackage;
+    abstract save(): void;
 }

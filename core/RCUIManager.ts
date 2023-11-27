@@ -1,7 +1,9 @@
 import { RCCore } from "./RCCore";
 
 export abstract class RCUIManager {
-    constructor(protected core: RCCore) { };
-    abstract init(): void;
+    protected core?: RCCore
+    init(core: RCCore) {
+        this.core = core
+    }
     abstract run(): void;
 }
